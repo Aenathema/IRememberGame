@@ -1815,9 +1815,10 @@ GameObject:
   m_Component:
   - component: {fileID: 534142541}
   - component: {fileID: 534142540}
+  - component: {fileID: 534142542}
   m_Layer: 0
   m_Name: Duck
-  m_TagString: Untagged
+  m_TagString: Pick Up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1878,13 +1879,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534142539}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.72, y: 1.94, z: 5}
+  m_LocalPosition: {x: 103.67, y: 2.56, z: 5}
   m_LocalScale: {x: 0.066594824, y: 0.066594824, z: 0.066594824}
   m_Children:
   - {fileID: 1800633444}
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &534142542
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534142539}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -5.2331896}
+  serializedVersion: 2
+  m_Radius: 4.8729777
 --- !u!1 &549629566
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,6 +3345,7 @@ GameObject:
   - component: {fileID: 874255586}
   - component: {fileID: 874255588}
   - component: {fileID: 874255589}
+  - component: {fileID: 874255590}
   m_Layer: 0
   m_Name: TheGirl
   m_TagString: Player
@@ -3401,6 +3419,18 @@ MonoBehaviour:
   startingHealth: 100
   currentHealth: 0
   healthSlider: {fileID: 65619247}
+--- !u!114 &874255590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874255585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda409d7849f04dcf839e8f29b28092b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &874255591
 GameObject:
   m_ObjectHideFlags: 0
