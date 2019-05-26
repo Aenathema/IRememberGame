@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     public float moveSpeed = 2.0f;
     private Vector3 originalScale;
     private GameObject _player;
+	
     // Start is called before the first frame update
     void Start()
     {
