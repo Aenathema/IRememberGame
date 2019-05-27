@@ -13451,8 +13451,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2017b8353147b435a8887b9cb8438b11, type: 3}
-  m_Color: {r: 0.5784977, g: 0.7184905, b: 0.9811321, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 3eae6e853b7324fea9453fd0357506dd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -24618,7 +24618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126691007}
   m_Layer: 0
-  m_Name: ~~Far Plane~~
+  m_Name: ~~Background~~
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24858,7 +24858,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161579606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.861343, y: 1.662, z: -10}
+  m_LocalPosition: {x: 46.59023, y: 1.662, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 43440237}
@@ -41551,7 +41551,7 @@ GameObject:
   - component: {fileID: 2100096841}
   - component: {fileID: 2100096842}
   m_Layer: 0
-  m_Name: Porch Sketch
+  m_Name: Porch BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41565,7 +41565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100096840}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57.34, y: -5.77, z: 0}
+  m_LocalPosition: {x: 57.34, y: -5.82, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1126691007}
@@ -41608,8 +41608,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4d5644d09b5c64554b2fd69dc452fed0, type: 3}
-  m_Color: {r: 0.6259527, g: 0.735849, b: 0.5657707, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 6d71fdf160860494e9a93d0a8bc9b1df, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
