@@ -31,6 +31,7 @@ public class PlayerHealth : MonoBehaviour
 
         // Set the initial health of the player.
         currentHealth = startingHealth;
+
     }
 
 
@@ -50,6 +51,9 @@ public class PlayerHealth : MonoBehaviour
 
         // Set the health bar's value to the current health.
         healthSlider.value = currentHealth;
+
+		gameObject.SetActive (false);
+
 
         // Play the hurt sound effect.
         //playerAudio.Play ();
@@ -81,5 +85,10 @@ public class PlayerHealth : MonoBehaviour
         // Turn off the movement and shooting scripts.
         //playerMovement.enabled = false;
         //playerShooting.enabled = false;
-    }       
+	}
+		
+	void OnTriggerEnter(Collider other)
+    	{
+       	gameObject.SetActive (false);
+    	}       
 }
