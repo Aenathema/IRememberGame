@@ -879,7 +879,7 @@ ModelImporter:
     - name: QuickRigCharacter_LeftShoulder
       parentName: QuickRigCharacter_Spine2
       position: {x: -0.0021201947, y: -0.00023697117, z: 0.002851658}
-      rotation: {x: -0.4272211, y: 0.5603014, z: 0.6123231, w: 0.3586152}
+      rotation: {x: -0.4435825, y: 0.54719627, z: 0.6014664, w: 0.3768939}
       scale: {x: 1, y: 1, z: 1}
     - name: QuickRigCharacter_LeftArm
       parentName: QuickRigCharacter_LeftShoulder
@@ -909,7 +909,7 @@ ModelImporter:
     - name: QuickRigCharacter_RightShoulder
       parentName: QuickRigCharacter_Spine2
       position: {x: -0.0021201947, y: -0.00023697117, z: -0.002851658}
-      rotation: {x: 0.5603014, y: 0.4272211, z: -0.3586152, w: 0.6123231}
+      rotation: {x: 0.5477165, y: 0.4447251, z: -0.37606195, w: 0.6006693}
       scale: {x: 1, y: 1, z: 1}
     - name: QuickRigCharacter_RightArm
       parentName: QuickRigCharacter_RightShoulder
