@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventSystem: {fileID: 176061830}
-  selectedObject: {fileID: 0}
+  selectedObject: {fileID: 2100356755}
 --- !u!114 &87012162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,7 +913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventSystem: {fileID: 176061830}
-  selectedObject: {fileID: 0}
+  selectedObject: {fileID: 71420420}
 --- !u!114 &312262989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6780,7 +6780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventSystem: {fileID: 176061830}
-  selectedObject: {fileID: 0}
+  selectedObject: {fileID: 1809002187}
 --- !u!114 &1045404396
 MonoBehaviour:
   m_ObjectHideFlags: 0
